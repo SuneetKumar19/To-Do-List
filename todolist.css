@@ -1,0 +1,99 @@
+#container{
+    width: 360px;
+    margin: 100px auto;
+    background : #f5f7f8;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0,0.3);
+}
+li{
+    color: black;
+}
+.comp{
+    color: gray;
+    text-decoration: line-through;
+}
+h1{
+    background: #2980b9;
+    color:white;
+    margin : 0;
+    padding : 10px 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Indie Flower;
+}
+li{
+ height: 40px;
+    background: #fff;
+    line-height: 40px;
+    font-family: Indie Flower;
+    overflow: auto;
+}
+li:nth-child(2n){
+    background: #f5f7f8;
+}
+input{
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width:100%;
+    padding :13px 13px 13px 20px;
+    box-sizing: border-box;
+    color: #2980b9;
+    border: rgba(0, 0, 0,0);
+    font-family: Indie Flower;
+    overflow: scroll;
+}
+input:focus{
+    background: white;
+    border: 3px solid #2980b9;
+}
+body{
+    background: #3A1C71;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.fa-plus{
+    float: right;
+}
+li:hover span
+  {
+    width: 40px;
+}
+span
+{
+    background: black;
+    height: 0;
+    margin-right: 20px;
+    color: red;
+    text-align: center;
+     width:40px; 
+    display: inline-block;
+    opacity: 1.0;
+}
+.fas fa-trash-alt{
+    width: 0;
+}
+#insta{
+    font-size: 29px;
+    color:#3A1C71;
+}
+#insta2{
+    font-size: 29px;
+    color:#3A1C71;
+}
+#mkc{
+    color:#3A1C71;
+}
+#clock
+{
+float: right;
+font-size: 29px;
+color: #FFAF7B;
+padding-right: 10px;
+margin-top: 0px;
+font-family: 'Lobster';
+}
